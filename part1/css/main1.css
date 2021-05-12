@@ -1,0 +1,118 @@
+@charset "utf-8";
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.container.header {
+    position: relative;
+    padding: 18px 5%;
+}
+
+.container.header .gnb {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e7e7e7b7;
+}
+.container.header .gnb li {
+    border-bottom: 0.5px solid black;
+    text-decoration: none;
+}
+
+.container.header .gnb li a {
+    display: block;
+    padding: 14px 0 14px 5%;
+    font-size: 15px;
+    color: #fff;
+}
+.container.header.menu-toggle-btn {
+    float: left;
+    width: 20px;
+    margin-top: 4px;
+    /* display: block; */
+    /* color: #F7F7F7; */
+    /* background-color:transparent; */
+}
+.container.header .menu-toggle-btn span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    /* vertical-align: baseline;
+    color: white;
+    background-color: transparent;
+    width: 5%; */
+    /* height: 5px; */
+    
+    /* margin: 4px auto; */
+}
+
+.container.header .menu-toggle-btn span:nth-child(2){
+    margin: 5px 0;
+}
+
+.header h1 {
+    margin: 30px 5px 0 5px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+h1 #Name1 {
+    position: relative;
+    text-align: center;
+    color: #F7F7F7;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px gray;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 70%;
+    letter-spacing: 5px;
+}
+
+.container section div {
+    text-align: center;
+    text-decoration: none;
+    position:static;
+    display: block;
+    font-size: 20px;
+    padding: 0 center;
+    margin: 0 auto;
+}
+
+.container section .btn1 {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #237fbc;
+}
+
+.container section .btn2 {
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(224, 224, 224);
+}
+.section button a {
+    text-decoration-line: none;
+}
+.footer {
+    border: 2px solid black;
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+    height: -30%;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}

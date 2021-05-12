@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0 minimum-scale=1.0">
+    <title>memo</title>
+    <link rel="stylesheet" href="css/main2.css">
+    <style>
+        .container {
+            width: 100%;
+            height: 1000px;
+            margin: 20px 30px 5px 30px;
+            /* text-align: center;
+            margin: 0 auto; */
+        }
+        .addMemo {
+            margin:20px;
+            float: left;  
+            font-size: x-large;
+        }
+
+        #memos img {
+            display: none;
+        }
+        .footer {
+    		border: 2px solid black;
+    		background-color: black;
+    		margin: 0 auto;
+    		width: 100%;
+    		height: -30%;
+		}
+
+		.footer p {
+			text-align: center;
+    		color: white;
+		}
+    </style>
+    
+</head>
+<body>
+    <ul>
+        <li><a href="main.html">Main</a></li>
+        <li><a href="main2_calender.html">Calendar</a></li>
+        <li><a href="main2_Diary.html">Diary</a></li>
+        <li><a class="active" href="main2_memo.html">Memo</a></li>
+        <li><a href="main2_Setting.html">Setting</a></li>
+      </ul>
+    <div class="container">
+        <button class="addMemo" id="btn">+</button>
+        <img src="images/memo.png" id="memos" alt="메모장" srcset="" width="200px">
+    </div>
+    <footer class="footer">
+        <p>copyright & copy; 2020.Sketch Scheduler page all rights reserved.</p>
+    </footer>
+</body>
+</html>
