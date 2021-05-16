@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
-<script>
-</script>
-    <link href="../../resources/css/sb-admin-2.min.css" rel="stylesheet">
+<title>구구단 각 단별 합계</title>
 </head>
+<link href="../../resources/css/sb-admin-2.min.css" rel="stylesheet">
 <body>
 	<!--테스트-->
 	<div>
@@ -80,18 +78,18 @@
 				</tr>
 			</tbody>
 		</table>
-	</div>		
+	</div>
 </body>
 <script type="text/javascript">
 function openWin(){
 	var w =500;
 	var h =300;
 	
-	var xPos =(document.body.offsetwidth/2)-(w/2);
-	xPos += window.screenleft;
-	var yPos =(document.body.offsetheight/2)-(h/2);
+	var xPos =(document.body.offsetWidth/2)-(w/2); //가운데 정렬
+	xPos += window.screenleft; //듀얼 모니터일 때
+	var yPos =(document.body.offsetHeight/2)-(h/2);
 	
-	window.open("http://localhost/sample/end","휴먼교육센터","width="+w+",height="+h+",left="+xPos+");
+	window.open("http://localhost/end","휴먼교육센터","width="+w+",height="+h+",left="+xPos+",toolbars=no, resizable=no, scrollbars=no");
 }
 </script>
 </html>
