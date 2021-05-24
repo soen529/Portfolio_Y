@@ -6,7 +6,7 @@
 
 프레젠테이션 : https://docs.google.com/presentation/d/1qLK2u7FUen-vxMD9T9CutxufrrHJSg9gtkxi6knkCB8/edit#slide=id.gd401205051_0_0
 
--part 2- 구구단 테이블 2021.01.27
+-Part 2- 구구단 테이블 2021.01.27
 
 -part 3-성적 관리 프로그램 2021.02.02
 
